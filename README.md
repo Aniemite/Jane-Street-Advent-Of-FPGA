@@ -118,21 +118,6 @@ The expected results for this input are:
 The testbench encodes this sequence as a series of instructions using direction and distance, then runs the simulation for enough clock cycles to allow all movements to complete. The final value of `zero_count` is read from the output and compared against the expected result.
 
 
-## How to Run the Testbench
-
-The RTL design and testbench are written using **Hardcaml** and are intended to be run within a standard OCaml + Hardcaml development environment.
-
-To run the testbench locally, the typical workflow is:
-
-1. Set up an OCaml environment with Hardcaml installed.
-2. Build and run the testbench using a standard OCaml build system (such as `dune`), linking against the Hardcaml libraries.
-
-When the testbench is run successfully with the provided example input, it gives the following output:
-
-Final zero_count = 6
-
-
-
 ## End note
 
 I am truly passionate for the world of Quant Finance, and this was my first ever real life project that I made by myself. I aspire to be a Quant Developer some day, and this serves as my starting point.
